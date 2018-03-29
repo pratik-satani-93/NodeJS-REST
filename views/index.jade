@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome !
+
+    // Wrapper
+    #wrapper
+
+        // USER LIST
+        h2 User List
+        #userList
+            table
+                thead
+                    th UserName
+                    th DisplayName
+                    th Department
+                    th Delete?
+                tbody
+        // /USER LIST
+
+        // ADD USER
+        h2 Add User
+        #addUser
+            fieldset
+                input#inputUserName(type='text', placeholder='Username')
+                input#inputDisplayName(type='text', placeholder='Displayname')
+                input#inputDepartment(type='text', placeholder='Department')
+                br
+                button#btnAddUser Add User
+        // /ADD USER
+
+    // /WRAPPER
