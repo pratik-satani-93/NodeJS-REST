@@ -30,12 +30,12 @@ How to run the Project?
 
 --> In a command prompt window, navigate to wherever you keep MongoDB, you should be in the "bin" folder of your mongoDB.(for example: C:\mongodb\bin) and type: 
 
-mongod --dbpath c:\downloads\nodetest2\data
+mongod --dbpath c:\downloads\NodeJS-REST-master\data
 
 
---> Here the path is of the "data" folder in the project "nodetest2". 
+--> Here the path is of the "data" folder in the project "NodeJS-REST-master". 
 
-Note: In case of MAC if you had installed mongodb globally than go to the root folder of your system from your terminal and directly type the above command. Path in case of MAC will have forward slash i.e. mongod --dbpath /Users/Pratik/nodetest2/data
+Note: In case of MAC if you had installed mongodb globally than go to the root folder of your system from your terminal and directly type the above command. Path in case of MAC will have forward slash i.e. mongod --dbpath /Users/Pratik/NodeJS-REST-master/data
 
 --> Let that terminal be open as it it necessary for connection with MongoDB.
 
